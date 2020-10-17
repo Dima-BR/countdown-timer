@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/time5.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
