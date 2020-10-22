@@ -4,7 +4,7 @@ let minEl     = document.getElementById("min");
 let secondsEl = document.getElementById("seconds");
 
 // set a valid end date 
-const deadline = '1 May 2021';
+const deadline = '20 Nov 2020';
 
 function countdown(){
     const cdDate= new Date(deadline);
@@ -17,10 +17,6 @@ function countdown(){
     let minutes = Math.floor(totalSeconds / 60) % 60;
     let second = Math.floor(totalSeconds) % 60;
 
-    // console.log(cdDate- currentDate);
-    // console.log(days, hours, minutes, second);
-    console.log(days);
-
     daysEl.innerHTML = days;
     hoursEl.innerHTML=formatTime(hours);
     minEl.innerHTML=formatTime(minutes);
@@ -30,6 +26,8 @@ function countdown(){
 function formatTime(time){
     return time <10 ? `0${time}`:time;
 }
+
+
 // initial call
 countdown();
 
