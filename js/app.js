@@ -4,7 +4,7 @@ let minEl     = document.getElementById("min");
 let secondsEl = document.getElementById("seconds");
 
 // set a valid end date 
-const deadline = '20 Nov 2022';
+const deadline = '20 Nov 2023';
 
 function countdown(){
     const cdDate= new Date(deadline);
